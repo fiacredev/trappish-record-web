@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+nav{
+	background-color: #333;
+	height: 80px;
+}
+nav .container-fluid{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+nav .container-fluid .navbar-brand{
+font-size: 26px;
+color: #fff;
+padding-left: 30px;
+text-transform: uppercase;
+}
+nav .container-fluid ul{
+	display: flex;
+}
+nav .container-fluid ul li{
+	margin-right: 30px;
+    list-style-type: none;     
+    font-size: 18px;
+    text-transform:uppercase;
+    padding-top:10px;
+}
+nav .container-fluid ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.container-1{
+	display: inline-flex;
+}
+.banner{
+	text-align: center;
+}
+.banner .text-1{
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 20px;
+	text-align: center;
+}
+.banner .all{
+	width: 150px;
+	height: 40px;
+	font-size: 18px;
+	text-transform:capitalize;
+	border-radius: 10px;
+	border: none;
+}
+.container-1 .container-3 .buttons{
+	font-size: 30px;
+	padding
+}
+.container-1 .banner{
+	width: 1200px;
+	height: 600px;
+	margin-left: 80px;
+	background-image: url(assets/images/three.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.container-last{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	background-color:  #d9d9d9;
+	padding-top: 0px;
+	height:23px;
+	padding: 20px;
+	margin-top:0px;
+}
+.container-last .text-1{
+	font-size:20px;
+	padding-top: 10px;
+	text-transform: capitalize;
+}
+.container-last .container-2 h4{
+    display: inline;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.container-last .container-2 .text-2{
+	font-size: 18px;
+	margin-right: 20px;
+	text-transform: capitalize;
+	font-weight: bold;
+	margin-left:30%;
+	text-decoration: underline;
+}
+.container-last .container-2 .text-2 .one{
+	color: blue;
+}
+.container-last .container-2 .text-2 .two{
+	color: yellowgreen;
+}
+.container-last .container-2 .text-2 .three{
+	color: green;
+}
+.container-3 .text-1{
+	font-size: 40px;
+}
